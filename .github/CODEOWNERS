@@ -1,0 +1,20 @@
+# This is a CODEOWNERS file for ownpath-cloud-pages (public hosting repo)
+# It defines who owns which files and who can approve changes
+
+# Global ownership - require approval from repo owner
+*       @steve-twintech
+
+# Critical configuration files - require additional review
+/.github/               @steve-twintech
+/.github/workflows/     @steve-twintech
+/package*.json          @steve-twintech
+/next.config.js         @steve-twintech
+/tailwind.config.js     @steve-twintech
+/tsconfig.json          @steve-twintech
+
+# Security-sensitive files
+/README.md              @steve-twintech
+/.gitignore             @steve-twintech
+
+# All built assets in out/ directory
+/out/                   @steve-twintech
